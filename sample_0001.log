@@ -1,0 +1,32 @@
+nohup: ignoring input
+2023-05-04 19:55:54,414 - INFO - pytorch_pretrained_bert.modeling - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-05-04 19:55:55,106 - INFO - pytorch_transformers.modeling_bert - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-05-04 19:55:55,110 - INFO - pytorch_transformers.modeling_xlnet - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-05-04 19:55:55,815 - INFO - allennlp.common.registrable - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-05-04 19:55:55,821 - INFO - allennlp.common.registrable - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-05-04 19:55:55,822 - INFO - allennlp.common.registrable - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-05-04 19:55:55,822 - INFO - allennlp.common.registrable - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-05-04 19:55:56,086 - WARNING - allennlp.common.params - _jsonnet not loaded, treating ./training_config/sample_working_example.jsonnet as json
+Traceback (most recent call last):
+  File "d:\software\anaconda3\envs\pytorch8888\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "d:\software\anaconda3\envs\pytorch8888\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "D:\SoftWare\Anaconda3\envs\pytorch8888\Scripts\allennlp.exe\__main__.py", line 7, in <module>
+  File "d:\software\anaconda3\envs\pytorch8888\lib\site-packages\allennlp\run.py", line 18, in run
+    main(prog="allennlp")
+  File "d:\software\anaconda3\envs\pytorch8888\lib\site-packages\allennlp\commands\__init__.py", line 102, in main
+    args.func(args)
+  File "d:\software\anaconda3\envs\pytorch8888\lib\site-packages\allennlp\commands\train.py", line 124, in train_model_from_args
+    args.cache_prefix)
+  File "d:\software\anaconda3\envs\pytorch8888\lib\site-packages\allennlp\commands\train.py", line 162, in train_model_from_file
+    params = Params.from_file(parameter_filename, overrides)
+  File "d:\software\anaconda3\envs\pytorch8888\lib\site-packages\allennlp\common\params.py", line 490, in from_file
+    file_dict = json.loads(evaluate_file(params_file, ext_vars=ext_vars))
+  File "d:\software\anaconda3\envs\pytorch8888\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "d:\software\anaconda3\envs\pytorch8888\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "d:\software\anaconda3\envs\pytorch8888\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
