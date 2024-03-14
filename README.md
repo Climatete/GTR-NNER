@@ -1,13 +1,4 @@
-# A Span-Based Model for Joint Overlapped and Discontinuous Named Entity Recognition
-
-The repo includes the code for the following [paper](https://arxiv.org/abs/2106.14373):
-
-    @inproceedings{li2021sodner,
-     title={A Span-Based Model for Joint Overlapped and Discontinuous Named Entity Recognition},
-     author={Li, Fei and Lin, Zhichao and Zhang, Meishan and Ji, Donghong},
-     booktitle={Proceedings of the ACL},
-     year={2021}
-    }
+# GTR-NNER:一种融合单词多元信息的嵌套命名实体识别方法
 
 Setup
 -----
@@ -25,7 +16,7 @@ Setup
   pip install -r requirements.txt
   ```
 3. Download the PyTorch AllenNLP version of SciBERT from [here](https://s3-us-west-2.amazonaws.com/ai2-s2-research/scibert/pytorch_models/scibert_scivocab_cased.tar).
-Put it into the current directory.
+Put it into the current directory.BERT of GENIA from Bio_ClinicalBERT.BERT of ACE2005 from multi_cased_L-12_H-768_A-12.
 
 4. Put the preprocessed data into "data" directory.
 There is a sample directory for your reference to preprocess original datasets.
